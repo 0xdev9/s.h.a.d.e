@@ -1,10 +1,10 @@
-# 🕵️ S.H.A.D.E.
+#  S.H.A.D.E. 🔍
 
-## ⚔️ Purpose
+##  Purpose
 
 Silent Handling and Anonymization of Data Entities. This tool strips PDFs and images of their metadata. Nothing remains.
 
-## 🔧 Installation
+## Installation
 
 Python 3.6+ is your key. Install the essentials:
 
@@ -12,12 +12,12 @@ Python 3.6+ is your key. Install the essentials:
 pip install pymupdf pillow
 ```
 
-## 🎯 Usage
+##  Usage
 
 Run. Provide the file. Choose the destination. Silence follows.
 
 ```bash
-python anonymizer.py
+python shade.py
 ```
 
 Example:
@@ -27,12 +27,12 @@ Enter the path to the input file: /path/to/secrets.pdf
 Enter the path to the output folder: /path/to/nowhere
 ```
 
-## 🖤 Supported Formats
+##  Supported Formats
 
 - **PDF** — Metadata? Gone.
 - **Images** — JPEG, PNG. Stripped bare.
 
-## ❗ Errors
+##  Errors
 
 - *File not found?* It never existed.
 - *Unsupported format?* Choose wisely.
